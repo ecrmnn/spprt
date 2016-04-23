@@ -127,5 +127,14 @@ spprt.diff([2, 3, 4], [3, 4, 5], [9, 8, 7, 2]);
 //=> [2, 3, 4]
 ```
 
+#### trim(string)
+```javascript
+var spprt = require('spprt');
+
+spprt.trim('just       a  random  string');
+//=> 'just a random string'
+```
+
+
 ### License
 MIT © [Daniel Eckermann](http://danieleckermann.com)

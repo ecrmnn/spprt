@@ -79,4 +79,10 @@ describe('Spprt Test Suite', function () {
     expect(spprt.intersect([2, 3, 4], [3, 4, 5])).to.be.deep.equal([3, 4]);
     expect(spprt.intersect([2, 3, 4], [3, 4, 5], [9, 8, 7, 2])).to.be.deep.equal([2, 3, 4]);
   });
+
+  it('trim', function () {
+    expect(spprt.trim('just   a  random        string')).to.be.equal('just a random string');
+    expect(spprt.trim('just \t\n  a  random    \r    string')).to.be.equal('just a random string');
+    expect(spprt.trim('just   a  random        \n\n\nstring')).to.be.equal('just a random string');
+  });
 });

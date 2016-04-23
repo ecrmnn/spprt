@@ -99,3 +99,7 @@ exports.intersect = function (arr) {
     return rest.indexOf(el) !== -1;
   });
 }
+
+exports.trim = function (str) {
+  return str.trim().replace(/\s{2,}/g, ' ');
+}
