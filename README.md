@@ -11,6 +11,9 @@
 npm install spprt --save
 ```
 
+### Support
+Node 0.10 +
+
 ### API
 
 #### last(array)
