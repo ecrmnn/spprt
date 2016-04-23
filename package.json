@@ -1,0 +1,28 @@
+{
+  "name": "spprt",
+  "version": "1.0.0",
+  "description": "Tiny support module for repetitive tasks",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha test/tests.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ecrmnn/spprt"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Daniel Eckermann",
+    "email": "danieleckermann@gmail.com",
+    "url": "http://danieleckermann.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ecrmnn/spprt/issues"
+  },
+  "homepage": "https://github.com/ecrmnn/spprt",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
+  }
+}
