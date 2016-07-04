@@ -120,10 +120,10 @@ spprt.diff([2, 3, 4], [3, 4, 5], [9, 8, 7, 2]);
 ```javascript
 var spprt = require('spprt');
 
-spprt.diff([2, 3, 4], [3, 4, 5]);
+spprt.intersect([2, 3, 4], [3, 4, 5]);
 //=> [3, 4]
 
-spprt.diff([2, 3, 4], [3, 4, 5], [9, 8, 7, 2]);
+spprt.intersect([2, 3, 4], [3, 4, 5], [9, 8, 7, 2]);
 //=> [2, 3, 4]
 ```
 

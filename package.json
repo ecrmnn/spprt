@@ -1,6 +1,6 @@
 {
   "name": "spprt",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Tiny support module for repetitive tasks",
   "main": "src/index.js",
   "scripts": {
